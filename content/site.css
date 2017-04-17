@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* background image courtesy of http://1-background.com/ */
+/* http://1-background.com/vampire_backgrounds_black_dreams.htm */
+body {
+    background: #FFFFFF url('../content/image/background.jpg');
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#container {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+header {
+    height: 200px;
+    width: 800px;
+    background: #FFFFFF url('../content/image/banner.png');
+}
+
+#headerContactLink {
+    float: right;
+    text-decoration: none;
+    height: 64px;
+    width: 128px;
+    border: 3px solid #0499FE;
+    background-color: #000000;
+    color: #0499FE;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+}
+
+#headerContactLink:hover {
+    border: 3px solid #000000;
+    background-color: #0499FE;
+    color: #000000;
+}
+
+#headerContactLink div {
+    margin-top: 7px;
+    font-size: 1.3em;
+}
+
+nav {
+    margin: 10px 0;
+    text-align: center;
+    background-color: #31ACDF;
+}
+
+nav ul {
+    list-style-type: none;
+    list-style-image: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border-left: 1px solid #000000;
+}
+
+nav ul li:last-child a {
+    border-right: 1px solid #000000;
+}
+
+nav ul li a:hover {
+    background-color: #093874;
+    color: #FFFFFF;
+}
+
+#imgHomePagePerformance {
+    float: left;
+    margin-right: 10px;
+}
+
+#marketingQuestions {
+    line-height: 4em;
+    padding-top: 20px;
+    height: 210px;
+    font-weight: bold;
+}
+
+h2.pricingLabel {
+    font-weight: bold;
+    background-color: #093874;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.pricingTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.pricingTable th {
+    border: 1px solid #000000;
+}
+
+.pricingTable td {
+    width: 40%;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.pricingTableDivider {
+    border-top: 3px solid #000000;
+}
+
+td.numberCell {
+    text-align: center;
+}
+
+td.moneyCell {
+    text-align: right;
+}
+
+.oddRow {
+    background-color: #DDDDDD;
+}
+
+.upcomingPerformance img {
+    float: left;
+    margin-right: 10px;
+}
+
+hr.fullPageRule {
+    clear: both;
+    margin: 15px 0;
+}
+
+#imgAboutUsTeamPicture {
+    float: left;
+    margin-right: 10px;
+}
+
+#frmContactUs {
+    
+}
+
+#frmContactUs div {
+    margin-bottom: 10px;
+}
+
+#frmContactUs label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    vertical-align: top;
+}
+
+#frmContactUs input {
+    padding: 2px;
+}
+
+#frmContactUs input[type=submit] {
+    padding: 10px;
+    float: right;
+    font-weight: bold;
+}
