@@ -1,78 +1,37 @@
-﻿<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>FireJive Performance Troupe Contact</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="keywords" content="firejive,fire,firespinning,performance" />
-        <meta name="description" content="FireJive Performance Troupe" />
-        <link type="text/css" rel="stylesheet" href="content/site.css" />
-    </head>
-    <body>
-        <div id="container" class="clearfix">
-            <header>
-                <a href="contact.html" id="headerContactLink">
-                    <div>
-                        Book your event!
-                    </div>
-                </a>
-            </header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="pricing.html">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="upcoming.html">Upcoming Performances</a>
-                    </li>
-                    <li>
-                        <a href="previous.html">Previous Performances</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div id="content">
-                <h1>Contact Us</h1>
-                <form id="frmContactUs" action="contact.html" method="post">
-                    <div>
-                        <label for="EventName">Event Name:</label>
-                        <input type="text" id="EventName" name="EventName" size="40" maxlength="50"/>
-                    </div>
-                    <div>
-                        <label for="ContactEmail">Email:</label>
-                        <input type="email" id="ContactEmail" name="ContactEmail" size="40" maxlength="50"/>
-                    </div>
-                    <div>
-                        <label for="ContactPhone">Phone:</label>
-                        <input type="text" id="ContactPhone" name="ContactPhone" size="40" maxlength="50"/>
-                    </div>
-                    <div>
-                        <label for="EventDate">Event Date (mm/dd/yyyy):</label>
-                        <input type="date" id="EventDate" name="EventDate" />
-                    </div>
-                    <div>
-                        <label>Performance Length:</label>
-                        <input type="number" id="EventPerformanceLength" name="EventPerformanceLength" min="20"/>
-                        minutes
-                    </div>
-                    <div>
-                        <label for="EventDescription">Event Description:</label>
-                        <textarea id="EventDescription" name="EventDescription" rows="7" cols="50"></textarea>
-                    </div>
-                    <div>
-                        <label for="SpaceDescription">Performance Space Description:</label>
-                        <textarea id="SpaceDescription" name="SpaceDescription" rows="7" cols="50"></textarea>
-                    </div>
-                    <input type="submit" id="frmContactUsSubmit" value="Send" />
-                </form>
-            </div>
-        </div>
-    </body>
-</html>
+---
+title: Contact Us
+---
+
+<h1>Contact Us</h1>
+<div id="frmContactUs">
+	<div>
+		<label for="EventName">Event Name:</label>
+		<input type="text" id="EventName" name="EventName" size="40" maxlength="50"/>
+	</div>
+	<div>
+		<label for="ContactEmail">Email:</label>
+		<input type="email" id="ContactEmail" name="ContactEmail" size="40" maxlength="50"/>
+	</div>
+	<div>
+		<label for="ContactPhone">Phone:</label>
+		<input type="text" id="ContactPhone" name="ContactPhone" size="40" maxlength="50"/>
+	</div>
+	<div>
+		<label for="EventDate">Event Date (mm/dd/yyyy):</label>
+		<input type="date" id="EventDate" name="EventDate" />
+	</div>
+	<div>
+		<label>Performance Length:</label>
+		<input type="number" id="EventPerformanceLength" name="EventPerformanceLength" min="20"/>
+		minutes
+	</div>
+	<div>
+		<label for="EventDescription">Event Description:</label>
+		<textarea id="EventDescription" name="EventDescription" rows="7" cols="50"></textarea>
+	</div>
+	<div>
+		<label for="SpaceDescription">Performance Space Description:</label>
+		<textarea id="SpaceDescription" name="SpaceDescription" rows="7" cols="50"></textarea>
+	</div>
+	<input type="button" id="frmContactUsSubmit" value="Send" />
+</div>

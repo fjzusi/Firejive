@@ -1,0 +1,7 @@
+title: "FireJive Performance Troupe"
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"

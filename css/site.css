@@ -15,7 +15,7 @@
 /* background image courtesy of http://1-background.com/ */
 /* http://1-background.com/vampire_backgrounds_black_dreams.htm */
 body {
-    background: #FFFFFF url('../content/image/background.jpg');
+    background: #FFFFFF url('/Firejive/img/background.jpg');
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -38,7 +38,7 @@ h1 {
 header {
     height: 200px;
     width: 800px;
-    background: #FFFFFF url('../content/image/banner.png');
+    background: #FFFFFF url('/Firejive/img/banner.png');
 }
 
 #headerContactLink {
